@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '/Users/ssrivas/Desktop/project/React App/ai-travel-planner/src/components/ui/button.jsx';
+import { Button } from "../ui/button.jsx";
 import { Link } from 'react-router-dom'
 
 function Hero() {

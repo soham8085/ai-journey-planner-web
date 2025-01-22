@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 import { Input } from '/Users/ssrivas/Desktop/project/React App/ai-travel-planner/src/components/ui/input.jsx';
 import { AI_PROMPT, SelectBudgetOptions, SelectTravelersList } from '/Users/ssrivas/Desktop/project/React App/ai-travel-planner/src/constants/options.jsx';
-import { Button } from '/Users/ssrivas/Desktop/project/React App/ai-travel-planner/src/components/ui/button.jsx';
+import { Button } from "../components/ui/button.jsx";
 import { Toaster, toast } from 'sonner';
 import { chatSession } from '@/service/AIModal';
 import {

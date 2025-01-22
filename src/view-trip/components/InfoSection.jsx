@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from '/Users/ssrivas/Desktop/project/React App/ai-travel-planner/src/components/ui/button.jsx';
+import { Button } from "../../components/ui/button.jsx";
 import { IoIosSend } from "react-icons/io";
 import { GetPlaceDetails, PHOTO_REF_URL } from '@/service/GlobalAPI';
 
