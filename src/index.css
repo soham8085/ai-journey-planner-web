@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  color: black; /* Optional: Ensures text is visible */
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */
+  font-family: Arial, sans-serif; /* Sets a default font */
+}
